@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application/api/categories_page.dart';
 import 'package:flutter_application/buttons/categories_page_with_buttons.dart';
 import 'package:flutter_application/buttons/users_page_with_buttons.dart';
 
@@ -33,7 +34,7 @@ class NavigationPage extends StatelessWidget {
   }
 
   navigateToCategories(context) {
-    Navigator.push(context, MaterialPageRoute(builder: (context) => CategoriesPageWithButtons()));
+    Navigator.push(context, MaterialPageRoute(builder: (context) => CategoriesPage()));
   }
 
   navigateToUsers(context) {
